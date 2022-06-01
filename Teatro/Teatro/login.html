@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="login.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        $('.message a').click(function(){
+        $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });
+    </script>
+
+    <header class="header1">
+       
+        <nav>
+            <div>
+                <img src="img/teatro.png" class="logo">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a  class="active" href="">Sobre Nosotros</a></li>
+                <li><a  class="active" href="#">Contactos</a></li>
+            </ul>
+
+        </nav>
+        <div class="login-page">
+            <div class="form">
+              <form class="register-form">
+                <input type="text" placeholder="nombre"/>
+                <input type="password" placeholder="contraseña"/>
+                <input type="text" placeholder="email"/>
+                <button>create</button>
+                <p class="message">Already registered? <a href="#">Sign In</a></p>
+              </form>
+              <form class="login-form">
+                <input type="text" placeholder="usuario"/>
+                <input type="password" placeholder="contraseña"/>
+                <button>login</button>
+                <p class="message">No registrado? <a href="registro.html">Registrarse</a></p>
+              </form>
+            </div>
+          </div>
+    </header>
+
+    
+</body>
+</html>

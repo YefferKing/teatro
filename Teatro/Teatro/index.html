@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="section.css">
+    <script src="https://kit.fontawesome.com/2874bc53f8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+       
+        <nav>
+            <div>
+                <img src="img/teatro.png" class="logo">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+              <li><a class="active" href="index.html">Inicio</a></li>
+              <li><a  href="#def1">Sobre Nosotros</a></li>
+              <li><a  href="#">Contactos</a></li>
+              <li><a href="registro.html" class="button1">Registrarse</a></li>
+              <li><a href="login.html" class="button2">Iniciar Sesion</a></li>
+            </ul>
+
+        </nav>
+
+        <div class="slider">
+          <ul>
+            <li>
+              <img src="https://p4.wallpaperbetter.com/wallpaper/288/527/806/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-preview.jpg" alt="">
+            </li>
+                    <li>
+              <img src="https://concepto.de/wp-content/uploads/2016/04/teatro-1-e1594939448882-800x400.jpg" alt="">
+            </li>
+                    <li>
+              <img src="https://www.65ymas.com/uploads/s1/33/18/67/estas-son-las-obras-de-teatro-mas-famosas-del-mundo_5_1242x621.jpeg" alt="">
+            </li>
+                    <li>
+              <img src="data:image/jpeg;base64,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" alt="">
+            </li>
+          </ul>
+        </div>
+        
+    </header>
+
+    <section name="def1">
+      <h1 name="def1">Proximos Eventos</h1>
+
+      <div class="boxesContainer">
+      
+        <div class="cardBox">
+          <div class="card">
+            <div class="front">
+              <h3>El caballo de Magno</h3>
+              <img src="img/teatro.jpg" alt="" height="240px" width="280px">
+            </div>
+            <div class="back">
+              <h3>El caballo de Magno</h3>
+              <p>Lunes, Martes, Miercoles</p>
+              <p>14:00</p>
+              <a href="reservar.html">Reservar</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="cardBox">
+          <div class="card">
+            <div class="front">
+              <h3>La vista mudla</h3>
+              <img src="img/fondo-teatro.jpg" alt="" height="240px" width="280px">
+            </div>
+            <div class="back">
+              <h3>La comedia negra</h3>
+              <p>Miercoles, Jueves</p>
+              <p>17:00</p>
+              <a href="reservar.html">Reservar</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="cardBox">
+          <div class="card">
+            <div class="front">
+              <h3>PantoMima</h3>
+              <img src="img/teatro.png" alt="" height="240px" width="280px">
+            </div>
+            <div class="back">
+              <h3>PantoMima</h3>
+              <p>Unica Funcion Viernes</p>
+              <p>19:00</p>
+              <a href="reservar.html">Reservar</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="cardBox">
+          <div class="card">
+            <div class="front">
+              <h3>La comedia negra</h3>
+              <img src="img/1.jpg" alt="" height="240px" width="280px">
+            </div>
+            <div class="back">
+              <h3>La comedia negra</h3>
+              <p>Unica Funcion Sabado</p>
+              <p>20:00</p>
+              <a href="reservar.html">Reservar</a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+     <!-- Site footer -->
+     <footer class="pie-pagina">
+      <div class="grupo-1">
+          <div class="box">
+              <figure>
+                  <a href="index.html">
+                      <img src="img/teatro.png" alt="Logo de SLee Dw">
+                  </a>
+              </figure>
+          </div>
+          <div class="box">
+              <h2>SOBRE NOSOTROS</h2>
+              <p>Práctica, experiencia en el arte de representar comedias. Edificio o lugar destinado a la representación de obras dramáticas.</p>
+              <p>Género literario cuyas obras se interpretan en un escenario frente al público.</p>
+          </div>
+          <div class="box">
+              <h2>SIGUENOS</h2>
+              <div class="red-social">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-youtube"></a>
+              </div>
+          </div>
+      </div>
+      <div class="grupo-2">
+          <small>&copy; 2022 <b>teatro ando</b> - Todos los Derechos Reservados.</small>
+      </div>
+  </footer>
+
+    
+
+    
+</body>
+</html>
